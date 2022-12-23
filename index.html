@@ -6,6 +6,8 @@
         <title>Portfolio of Esteban Alcala</title>
         <link rel="stylesheet" type= "text/css" href="./style.css" />
       </head>
+
+<!--Header with image and navigation buttons-->
 <body class = "header">
         <h1>Esteban Alcala</h1>
         <nav>
@@ -17,24 +19,35 @@
         <img
             id = "background"
             src = "./images/background.jpeg"/>
-
-    <main>
-        <aside>
-            <h2>About Me</h2>
-        <div id="Me">
-            <p>I am an Asst Operations Manager at a Mattress Firm warehouse and I just 
-                joined a coding bootcamp in the hopes of changing careers.</p>
-        </div>
-        <h2>Work</h2>
-            <div id="experience">
-                <ul>
-                    <li>Home Depot</li>
-                    <li>Walmart</li>
-                    <li>Mattress Firm</li>
-                </ul>  
-            </div>
-    </aside>
-    </main>
+        <section class = "subtitle">
+            <p>Portfolio of Esteban Alcala</p>
+        </section>
 </body>
 
+<!--About me catigory-->
+<article class = "Me">
+    <h2>About Me</h2>
+        <p>My name is Esteban Alcala, and I am an aspiring coder. I have been interested in computer science for the past 10 years
+            since I took my first computers logic class at Southwestern Community College. I have tried learning Java, C++, and Python
+            on my own over the years. I do have 5 years of managerial experience starting from my time at walmart and continueing onto
+            my time in Mattress Firm.
+        </p>
+</article>
+
+<main>
+    <h2>Work</h2>
+        <div class="column">
+            <div class = "images" id = "budget">
+                <section id = "textbox">
+                    <p>Budgeting App</p>
+                </section>
+                <img src = "./images/budget.jpg">
+            </div>
+
+            <div class = "images">
+               <section class = "textbox">
+                    <p>Maze App</p>
+               </section> 
+            </div>   
+</main>
 </html>
