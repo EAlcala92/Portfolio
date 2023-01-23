@@ -1,5 +1,11 @@
-.header h1{
+.header{
     padding: 20px;
+    background-color: rgb(42, 42, 124);
+    color:azure;
+}
+
+h1{
+    border-radius: 10px solid white;
 }
 
 .header nav{
@@ -11,7 +17,7 @@
 }
 
 .header a{
-    color: rgb(57, 57, 171);
+    color:white;
     font-size: 20px;
     text-decoration: none;
     padding-right: 2%;
@@ -27,12 +33,17 @@
     position:absolute;
     border: 1px solid;
     padding: 10px;
-    color: rgb(57, 57, 171);
+    color: white;
     top: 250px;
     left: 25px;
+
 }
 
-article{
-    margin-top: 5%;
-    width: 100%;
+.me{
+    margin-left: 25%;
+}
+
+#border{
+    border-right: 10px solid;
+    margin-left: 25%;
 }
