@@ -1,3 +1,4 @@
+/*
 .header{
     padding: 20px;
     background-color: rgb(42, 42, 124);
@@ -45,5 +46,9 @@ h1{
 
 #border{
     border-right: 10px solid;
+    margin-left: 25%;
+}
+
+.column{
     margin-left: 25%;
 }
