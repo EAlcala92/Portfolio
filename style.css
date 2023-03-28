@@ -1,12 +1,13 @@
-/*
+
 .header{
     padding: 20px;
     background-color: rgb(42, 42, 124);
     color:azure;
 }
 
-h1{
+.subtitle{
     border-radius: 10px solid white;
+    background-color: black;
 }
 
 .header nav{
